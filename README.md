@@ -27,9 +27,20 @@ The notebook processes multi-dimensional wholesale purchase data through a stric
 
 ## 📂 Repository Contents
 * `customer_segmentation.ipynb` -> Core Jupyter Notebook containing data pipeline executions and markdown reports.
+* `Wholesale customers data.xls` -> Local source dataset containing client annual spending data across product categories.
 * `README.md` -> Technical overview of the project architecture.
 
 ## 🚀 Getting Started
 1. Clone the repository:
    ```bash
    git clone [https://github.com/pd8r/Wholesale-Customer-Segmentation.git](https://github.com/pd8r/Wholesale-Customer-Segmentation.git)
+
+2. Install the necessary dependencies (including UMAP and excel engines):
+   ```bash
+   pip install pandas numpy scikit-learn umap-learn matplotlib seaborn openpyxl jupyter
+
+3. Launch the server:
+   ```bash
+   jupyter notebook
+  
+
